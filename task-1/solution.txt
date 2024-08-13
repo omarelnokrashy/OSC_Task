@@ -1,0 +1,22 @@
+omar@Ashour:~$ mkdir omar
+omar@Ashour:~/omar$ touch one.txt two.txt three.txt four.txt
+omar@Ashour:~/omar$ mkdir BAD
+omar@Ashour:~/omar/BAD$ touch bad.txt
+omar@Ashour:~/omar/BAD$ cd ..
+omar@Ashour:~/omar$ mv one.txt /home/omar/Downloads/
+omar@Ashour:~/Downloads$ cp one.txt copy.txt
+omar@Ashour:~$ cd omar
+omar@Ashour:~/omar$ nano two.txt
+omar@Ashour:~/omar$ echo 1-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 2-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 3-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 4-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 5-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 6-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 7-hello OSC >> three.txt
+omar@Ashour:~/omar$ echo 8-hello OSC >> three.txt
+omar@Ashour:~/omar$ mv three.txt hello.txt
+omar@Ashour:~/omar$ rm four.txt
+omar@Ashour:~/omar$ rm -r BAD
+
+
